@@ -2,9 +2,192 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid d5881702-98ec-4aea-8d9c-3c163ba85aa3)
+	(uuid "d5881702-98ec-4aea-8d9c-3c163ba85aa3")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 115.57 16.51)
+		(size 95.25 69.85)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "17c6aef0-55af-46a5-958a-b168e76cb0a4")
+		(property "Sheetname" "Connectors"
+			(at 115.57 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "conn.kicad_sch"
+			(at 115.57 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 115.57 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "mitochondria"
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 92.71)
+		(size 92.71 68.58)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5366a2be-3d58-427d-8306-8542a9a2b2c3")
+		(property "Sheetname" "Battery Management"
+			(at 17.78 91.9984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "bms.kicad_sch"
+			(at 17.78 161.8746 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "CELL_0" input
+			(at 110.49 100.33 0)
+			(uuid "7461283b-baa7-45fa-ab95-de4f63d9a955")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CELL_1" input
+			(at 110.49 104.14 0)
+			(uuid "804b2f9b-204a-45c6-bed0-bc28d5e1e63f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CELL_2" input
+			(at 110.49 107.95 0)
+			(uuid "bbf68a46-9da3-420d-a54a-8afa4de3635d")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CELL_3" input
+			(at 110.49 111.76 0)
+			(uuid "0706b21a-c910-4907-a048-3e8fdc442f1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "mitochondria"
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 17.78 16.51)
+		(size 92.71 69.85)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e282941a-9b02-493e-88b5-ebcf243042cc")
+		(property "Sheetname" "Power Distribution"
+			(at 17.78 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "pd.kicad_sch"
+			(at 17.78 86.9446 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 17.78 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "mitochondria"
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3"
+					(page "2")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
