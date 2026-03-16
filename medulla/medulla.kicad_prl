@@ -59,7 +59,7 @@
     "ssh_key": ""
   },
   "meta": {
-    "filename": "mitochondria.kicad_prl",
+    "filename": "medulla.kicad_prl",
     "version": 5
   },
   "net_inspector_panel": {
