@@ -6,8 +6,8 @@
 	(paper "A4")
 	(lib_symbols)
 	(sheet
-		(at 115.57 16.51)
-		(size 95.25 69.85)
+		(at 78.105 16.51)
+		(size 53.34 31.115)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -22,7 +22,7 @@
 		)
 		(uuid "17c6aef0-55af-46a5-958a-b168e76cb0a4")
 		(property "Sheetname" "Connectors"
-			(at 115.57 15.7984 0)
+			(at 78.105 15.7984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -31,7 +31,7 @@
 			)
 		)
 		(property "Sheetfile" "conn.kicad_sch"
-			(at 115.57 86.9446 0)
+			(at 78.105 48.2096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -40,7 +40,7 @@
 			)
 		)
 		(property "Field2" ""
-			(at 115.57 16.51 0)
+			(at 78.105 16.51 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -57,8 +57,8 @@
 		)
 	)
 	(sheet
-		(at 17.78 92.71)
-		(size 92.71 68.58)
+		(at 17.78 52.07)
+		(size 57.15 33.02)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -73,7 +73,7 @@
 		)
 		(uuid "5366a2be-3d58-427d-8306-8542a9a2b2c3")
 		(property "Sheetname" "Battery Management"
-			(at 17.78 91.9984 0)
+			(at 17.78 51.3584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -82,7 +82,7 @@
 			)
 		)
 		(property "Sheetfile" "bms.kicad_sch"
-			(at 17.78 161.8746 0)
+			(at 17.78 85.6746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -91,7 +91,7 @@
 			)
 		)
 		(pin "CELL_0" input
-			(at 110.49 100.33 0)
+			(at 74.93 60.325 0)
 			(uuid "7461283b-baa7-45fa-ab95-de4f63d9a955")
 			(effects
 				(font
@@ -101,7 +101,7 @@
 			)
 		)
 		(pin "CELL_1" input
-			(at 110.49 104.14 0)
+			(at 74.93 64.135 0)
 			(uuid "804b2f9b-204a-45c6-bed0-bc28d5e1e63f")
 			(effects
 				(font
@@ -111,7 +111,7 @@
 			)
 		)
 		(pin "CELL_2" input
-			(at 110.49 107.95 0)
+			(at 74.93 67.945 0)
 			(uuid "bbf68a46-9da3-420d-a54a-8afa4de3635d")
 			(effects
 				(font
@@ -121,8 +121,28 @@
 			)
 		)
 		(pin "CELL_3" input
-			(at 110.49 111.76 0)
+			(at 74.93 71.755 0)
 			(uuid "0706b21a-c910-4907-a048-3e8fdc442f1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "CELL_4" input
+			(at 74.93 75.565 0)
+			(uuid "9b6baeab-9138-47ea-b3ac-83169f0165b5")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "PRES" input
+			(at 74.93 78.105 0)
+			(uuid "c3e55f89-5467-47bb-9952-c9e5cb47896a")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -139,8 +159,101 @@
 		)
 	)
 	(sheet
+		(at 78.105 52.07)
+		(size 53.34 32.385)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5cee42f7-61c6-4778-b962-2e73db37d39a")
+		(property "Sheetname" "Conditioning"
+			(at 78.105 51.3584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "cond.kicad_sch"
+			(at 78.105 85.0396 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "mitochondria"
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 134.62 16.51)
+		(size 53.34 31.115)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a32a4212-31b2-4560-9330-e8ef727afdb0")
+		(property "Sheetname" "Motor Driver"
+			(at 134.62 15.7984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "md.kicad_sch"
+			(at 134.62 48.2096 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 134.62 16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project "mitochondria"
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 17.78 16.51)
-		(size 92.71 69.85)
+		(size 57.15 31.115)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -164,7 +277,7 @@
 			)
 		)
 		(property "Sheetfile" "pd.kicad_sch"
-			(at 17.78 86.9446 0)
+			(at 17.78 48.2096 0)
 			(effects
 				(font
 					(size 1.27 1.27)
