@@ -617,6 +617,147 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Regulator_Linear:LM2936-3.3_TO92"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at -3.81 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "LM2936-3.3_TO92"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+				(at 0 5.715 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2936.pdf"
+				(at 0 -1.27 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "50mA Ultra-Low Quiescent Current LDO Voltage Regulator, 3.3V fixed output, TO-92"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "linear regulator ldo fixed positive"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "TO?92*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM2936-3.3_TO92_0_1"
+				(rectangle
+					(start -5.08 -5.08)
+					(end 5.08 1.905)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LM2936-3.3_TO92_1_1"
+				(pin power_in line
+					(at -7.62 0 0)
+					(length 2.54)
+					(name "VI"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -7.62 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_out line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "VO"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "SamacSys_Parts:VS-6TQ045S-M3"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -1500,6 +1641,131 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "power:+3.3V"
+			(power)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "#PWR"
+				(at 0 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Value" "+3.3V"
+				(at 0 3.556 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "global power"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "+3.3V_0_1"
+				(polyline
+					(pts
+						(xy -0.762 1.27) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0.762 1.27)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "+3.3V_1_1"
+				(pin power_in line
+					(at 0 0 90)
+					(length 0)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+5V"
 			(power)
 			(pin_numbers
@@ -1969,6 +2235,12 @@
 		(uuid "78beab98-6378-424d-ab39-90f900bab38f")
 	)
 	(junction
+		(at 109.22 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "86b56663-822c-4028-818b-e2ea8fafd7c3")
+	)
+	(junction
 		(at 137.16 138.43)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2003,6 +2275,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c18de00e-bef1-43b1-9563-d0b7ba501070")
+	)
+	(junction
+		(at 83.82 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d10793d2-201f-4269-8db5-8d1661b87abc")
 	)
 	(junction
 		(at 43.18 99.06)
@@ -2070,6 +2348,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 161.29) (xy 83.82 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "16bd4ea8-2e15-4041-a547-f2b2705d44c0")
+	)
+	(wire
+		(pts
 			(xy 152.4 111.76) (xy 152.4 114.3)
 		)
 		(stroke
@@ -2107,6 +2395,16 @@
 			(type default)
 		)
 		(uuid "1fffc69b-4528-4ee0-90d8-1b3e9c249db2")
+	)
+	(wire
+		(pts
+			(xy 96.52 168.91) (xy 96.52 173.99)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "27cfb386-7c3b-4950-81d1-5318a92f0890")
 	)
 	(wire
 		(pts
@@ -2150,6 +2448,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 161.29) (xy 109.22 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d799be9-e4dd-4599-8ff9-b54c14935e93")
+	)
+	(wire
+		(pts
 			(xy 128.27 105.41) (xy 137.16 105.41)
 		)
 		(stroke
@@ -2160,6 +2468,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 161.29) (xy 83.82 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "40e8e701-7507-4a47-a473-09503bc4dd21")
+	)
+	(wire
+		(pts
 			(xy 43.18 110.49) (xy 43.18 138.43)
 		)
 		(stroke
@@ -2167,6 +2485,16 @@
 			(type default)
 		)
 		(uuid "43b43232-bf38-4f35-acae-d3df1aad59ec")
+	)
+	(wire
+		(pts
+			(xy 109.22 161.29) (xy 115.57 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47542e7b-a39f-4639-a16e-1ff851907488")
 	)
 	(wire
 		(pts
@@ -2380,6 +2708,16 @@
 	)
 	(wire
 		(pts
+			(xy 83.82 161.29) (xy 88.9 161.29)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "83f6fcc7-ea86-4daa-a341-46a20dd2248e")
+	)
+	(wire
+		(pts
 			(xy 147.32 48.26) (xy 152.4 48.26)
 		)
 		(stroke
@@ -2567,6 +2905,16 @@
 			(type default)
 		)
 		(uuid "c09a2176-68d0-42ab-8b62-c902533e0c92")
+	)
+	(wire
+		(pts
+			(xy 109.22 161.29) (xy 109.22 166.37)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c19965c5-8652-413c-9bb4-8d5b0cc2cb12")
 	)
 	(wire
 		(pts
@@ -3217,6 +3565,139 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-BATT")
+		(at 83.82 173.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2094ec3a-59e9-4fb8-b671-6cfc02829d62")
+		(property "Reference" "#PWR026"
+			(at 83.82 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT"
+			(at 83.82 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 83.82 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e14a634a-e729-41d8-9bd8-12f13a6679da")
+		)
+		(instances
+			(project "medulla"
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/e282941a-9b02-493e-88b5-ebcf243042cc"
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 115.57 161.29 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2b431e9b-3990-4cc3-8c62-35b82b9a2796")
+		(property "Reference" "#PWR025"
+			(at 111.76 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3.3V"
+			(at 119.38 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 115.57 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 115.57 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 115.57 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "257b56be-f61d-4fbe-bc71-9a7eb4ed5678")
+		)
+		(instances
+			(project ""
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/e282941a-9b02-493e-88b5-ebcf243042cc"
+					(reference "#PWR025")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 152.4 118.11 0)
 		(unit 1)
@@ -3600,6 +4081,144 @@
 		)
 	)
 	(symbol
+		(lib_id "Regulator_Linear:LM2936-3.3_TO92")
+		(at 96.52 161.29 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5ae1349b-00eb-4c8b-81ef-2efc4644835f")
+		(property "Reference" "U6"
+			(at 96.52 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM2936-3.3_TO92"
+			(at 96.52 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(at 96.52 155.575 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm2936.pdf"
+			(at 96.52 162.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "50mA Ultra-Low Quiescent Current LDO Voltage Regulator, 3.3V fixed output, TO-92"
+			(at 96.52 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "aa28a861-9d5a-48bc-8bf6-93dad2e7ad27")
+		)
+		(pin "1"
+			(uuid "ee60f068-e413-4e68-b235-9d5076a5288d")
+		)
+		(pin "3"
+			(uuid "f81dab41-937e-411f-87f7-33290c329202")
+		)
+		(instances
+			(project ""
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/e282941a-9b02-493e-88b5-ebcf243042cc"
+					(reference "U6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:-BATT")
+		(at 109.22 173.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62a4b377-c2bc-44a2-919d-1eb7e2c82f73")
+		(property "Reference" "#PWR027"
+			(at 109.22 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT"
+			(at 109.22 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 109.22 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5cabfd6c-7801-4660-a563-390ea8f3c544")
+		)
+		(instances
+			(project "medulla"
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/e282941a-9b02-493e-88b5-ebcf243042cc"
+					(reference "#PWR027")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Polarized")
 		(at 36.83 106.68 0)
 		(unit 1)
@@ -3669,6 +4288,76 @@
 			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/e282941a-9b02-493e-88b5-ebcf243042cc"
 					(reference "C?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 83.82 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "64d61104-5a41-4beb-9648-5a07819e8993")
+		(property "Reference" "C4"
+			(at 87.63 168.9099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100n"
+			(at 87.63 171.4499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 84.7852 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 83.82 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 83.82 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2e694694-1446-4437-9829-33322faed346")
+		)
+		(pin "2"
+			(uuid "cfd6f2d8-34ea-4ef9-9e64-900e0d5a3e33")
+		)
+		(instances
+			(project ""
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/e282941a-9b02-493e-88b5-ebcf243042cc"
+					(reference "C4")
 					(unit 1)
 				)
 			)
@@ -3947,6 +4636,76 @@
 			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/e282941a-9b02-493e-88b5-ebcf243042cc"
 					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Polarized")
+		(at 109.22 170.18 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "7fec3d92-0440-4e13-8f3f-a4812855042c")
+		(property "Reference" "C5"
+			(at 113.03 168.0209 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10u"
+			(at 113.03 170.5609 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 110.1852 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 109.22 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Polarized capacitor"
+			(at 109.22 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "de010241-2f67-435f-a0ed-7f8233f56abd")
+		)
+		(pin "1"
+			(uuid "7c944315-e56b-4119-8f28-f64e7f7f5f2c")
+		)
+		(instances
+			(project ""
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/e282941a-9b02-493e-88b5-ebcf243042cc"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -4466,6 +5225,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:-BATT")
+		(at 96.52 173.99 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e5fcee3b-33ff-4e14-affc-2ecfdccc9b95")
+		(property "Reference" "#PWR024"
+			(at 96.52 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "-BATT"
+			(at 96.52 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 96.52 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 96.52 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"-BATT\""
+			(at 96.52 173.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7fa65320-6fef-44f2-a58f-57bb0ae0807e")
+		)
+		(instances
+			(project "medulla"
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/e282941a-9b02-493e-88b5-ebcf243042cc"
+					(reference "#PWR024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Diode:MBR340")
 		(at 137.16 118.11 270)
 		(unit 1)
@@ -4535,6 +5360,73 @@
 			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/e282941a-9b02-493e-88b5-ebcf243042cc"
 					(reference "D?")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 80.01 161.29 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f23e7ada-4374-4796-9237-faf6954afed3")
+		(property "Reference" "#PWR023"
+			(at 83.82 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 76.2 161.2899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 80.01 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 80.01 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 80.01 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ffe98228-f463-42d4-94c9-ea4843968857")
+		)
+		(instances
+			(project "medulla"
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/e282941a-9b02-493e-88b5-ebcf243042cc"
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)

@@ -57,6 +57,56 @@
 		)
 	)
 	(sheet
+		(at 17.78 87.63)
+		(size 57.15 30.48)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "2e68550f-e5f4-4341-bbd8-8491bcb4ffa7")
+		(property "Sheetname" "Microcontroller"
+			(at 17.78 86.9184 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "uc.kicad_sch"
+			(at 17.78 118.6946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 17.78 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "medulla"
+				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
 		(at 17.78 52.07)
 		(size 57.15 30.48)
 		(exclude_from_sim no)

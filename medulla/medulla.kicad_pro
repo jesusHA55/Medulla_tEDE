@@ -438,6 +438,10 @@
     [
       "b6832633-0f89-4ab7-81e7-a15e779a91d0",
       "Peripherals"
+    ],
+    [
+      "2e68550f-e5f4-4341-bbd8-8491bcb4ffa7",
+      "Microcontroller"
     ]
   ],
   "text_variables": {}

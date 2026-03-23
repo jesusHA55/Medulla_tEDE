@@ -2117,16 +2117,6 @@
 	)
 	(wire
 		(pts
-			(xy 27.94 45.72) (xy 49.53 45.72)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "da14da95-9991-49e2-a5e5-19fe8c8e24df")
-	)
-	(wire
-		(pts
 			(xy 30.48 17.78) (xy 30.48 19.05)
 		)
 		(stroke
@@ -2296,73 +2286,6 @@
 				)
 				(justify right)
 				(hide yes)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 27.94 45.72 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "08d62e65-1146-4ee9-b7d2-a59ec2115141")
-		(property "Reference" "#PWR?"
-			(at 31.75 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 24.13 45.7199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 27.94 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 27.94 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 27.94 45.72 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3b102839-b0b3-4cf8-819a-d45e869468e2")
-		)
-		(instances
-			(project "medulla"
-				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/17c6aef0-55af-46a5-958a-b168e76cb0a4"
-					(reference "#PWR?")
-					(unit 1)
-				)
 			)
 		)
 	)
@@ -2871,7 +2794,7 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
+		(property "Value" "+3.3V_pi"
 			(at 22.86 17.7799 90)
 			(effects
 				(font
@@ -2898,7 +2821,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+		(property "Description" "Pi 3.3V"
 			(at 26.67 17.78 0)
 			(effects
 				(font

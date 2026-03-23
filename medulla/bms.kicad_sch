@@ -3374,7 +3374,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "03221c2c-3b51-4ac9-914b-749bad391f93")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR02"
 			(at 88.9 64.77 0)
 			(effects
 				(font
@@ -3420,18 +3420,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ce508c00-eb45-4245-81d5-093c35de3c83")
+			(uuid "ee2e65e2-e83f-48c2-ae79-29832f91afd9")
 		)
 		(instances
-			(project ""
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "#PWR02")
-					(unit 1)
-				)
-			)
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "#PWR?")
+					(reference "#PWR02")
 					(unit 1)
 				)
 			)
@@ -3446,7 +3440,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "06fed844-930b-4ad1-bca7-7823686605c8")
-		(property "Reference" "R?"
+		(property "Reference" "R4"
 			(at 180.086 75.946 90)
 			(effects
 				(font
@@ -3490,21 +3484,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "9dfe26ba-cc63-47b0-896c-ffbd15d5e442")
+			(uuid "7b88c642-27ea-4561-8051-0a37f64c9c7a")
 		)
 		(pin "2"
-			(uuid "1f4fe369-cf0b-4d8e-8898-7877ea6edb7c")
+			(uuid "83795f0a-04ff-452f-91a2-4408c0c5fdbf")
 		)
 		(instances
-			(project ""
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "R4")
-					(unit 1)
-				)
-			)
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "R?")
+					(reference "R4")
 					(unit 1)
 				)
 			)
@@ -3519,7 +3507,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "075cf442-19c3-4acd-9add-21265328dd20")
-		(property "Reference" "TH?"
+		(property "Reference" "TH1"
 			(at 95.504 67.564 90)
 			(effects
 				(font
@@ -3563,21 +3551,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "860f3baa-d34f-44e9-9f87-6988d9053465")
+			(uuid "debf09c4-4bec-4434-94fd-aa5e01c5cead")
 		)
 		(pin "1"
-			(uuid "03cc129d-3b01-433f-9ed8-95dfdedeb8ff")
+			(uuid "5b523fcc-ad14-4b71-a338-1a881ec51737")
 		)
 		(instances
-			(project ""
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "TH1")
-					(unit 1)
-				)
-			)
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "TH?")
+					(reference "TH1")
 					(unit 1)
 				)
 			)
@@ -3593,7 +3575,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "08fa4082-3341-449d-a555-0d4e7bf28d9d")
-		(property "Reference" "#PWR02"
+		(property "Reference" "#PWR?"
 			(at 182.88 151.13 0)
 			(effects
 				(font
@@ -3639,18 +3621,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "19551293-178e-4891-a40a-ab88cf7568bc")
+			(uuid "7702ea91-3cb8-40b1-ac13-f7469cece008")
 		)
 		(instances
-			(project "bms"
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project ""
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "#PWR02")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3666,7 +3642,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "095a8619-9c42-4040-9f18-06392e9c3235")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR?"
 			(at 181.61 57.15 0)
 			(effects
 				(font
@@ -3712,18 +3688,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "271a6941-4c35-4653-8649-64f3dfc9dffe")
+			(uuid "5a6bb5cc-0c27-435a-b6ec-22dba69aee8f")
 		)
 		(instances
-			(project "bms"
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project ""
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "#PWR01")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3739,7 +3709,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ccbcfdc-6c5b-480d-9651-ecfaba4d259a")
-		(property "Reference" "R?"
+		(property "Reference" "R11"
 			(at 114.3 128.2699 0)
 			(effects
 				(font
@@ -3785,21 +3755,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "6ac10e3a-703f-4792-813b-e9b25165a1f4")
+			(uuid "59abe1d5-8658-4ac1-a2b2-795a4d79fbbb")
 		)
 		(pin "2"
-			(uuid "dc97805a-19f8-45af-b237-5e3a546564d9")
+			(uuid "0fff2c6a-2695-42fc-90c2-13d5fffb4adc")
 		)
 		(instances
-			(project "bms"
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "R11")
-					(unit 1)
-				)
-			)
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "R?")
+					(reference "R11")
 					(unit 1)
 				)
 			)
@@ -3815,7 +3779,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0ea5c2c4-3577-421b-8e7e-f11856b7e44a")
-		(property "Reference" "R?"
+		(property "Reference" "R13"
 			(at 54.61 105.41 90)
 			(effects
 				(font
@@ -3859,21 +3823,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "408c5ff7-11cf-4867-b20c-9cbb390ee4d1")
+			(uuid "ebbfabc9-af28-4c8b-9e63-a8f51b47ecf8")
 		)
 		(pin "2"
-			(uuid "f7d661a0-0814-449b-9e60-b37cc2d3971d")
+			(uuid "d1b6e8fc-0c9c-4545-8cdb-db0c44601331")
 		)
 		(instances
-			(project "bms"
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "R13")
-					(unit 1)
-				)
-			)
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "R?")
+					(reference "R13")
 					(unit 1)
 				)
 			)
@@ -3889,7 +3847,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1797dd97-9066-4261-839a-d2c1da4a0a65")
-		(property "Reference" "#PWR03"
+		(property "Reference" "#PWR?"
 			(at 50.8 52.07 0)
 			(effects
 				(font
@@ -3935,18 +3893,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "73463abc-35e4-47fc-a30f-1d0a30c4e4c1")
+			(uuid "71d71387-4b7a-4456-b1ca-17582ccf67cd")
 		)
 		(instances
-			(project "bms"
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project ""
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "#PWR03")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -3962,7 +3914,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "247257b3-799b-455a-bf6c-4059835d397f")
-		(property "Reference" "#PWR04"
+		(property "Reference" "#PWR?"
 			(at 45.72 60.96 0)
 			(effects
 				(font
@@ -4008,18 +3960,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "ed16a5b7-f6ec-4ec7-a412-63ad092dd2af")
+			(uuid "ea5c797d-46e8-49c6-b9bf-590ee032a584")
 		)
 		(instances
-			(project "bms"
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project ""
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "#PWR04")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4035,7 +3981,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2dd8bac3-501a-4567-9f6a-67ba2590b5b6")
-		(property "Reference" "R2"
+		(property "Reference" "R?"
 			(at 54.61 77.47 90)
 			(effects
 				(font
@@ -4079,21 +4025,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "485e5339-b958-4566-87e1-8365fee7c247")
+			(uuid "ad15f45d-4721-45a7-8afc-1e055dbd1d3e")
 		)
 		(pin "2"
-			(uuid "c9594955-59d9-4f57-9b65-15eef4236246")
+			(uuid "70bc709c-2eec-46d5-9dd5-f58aea9c7dc9")
 		)
 		(instances
-			(project "bms"
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "R2")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -4109,7 +4049,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3533d8a3-3b9b-4760-8264-bbb345b151c3")
-		(property "Reference" "#PWR05"
+		(property "Reference" "#PWR?"
 			(at 176.53 67.31 0)
 			(effects
 				(font
@@ -4155,18 +4095,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "2b8a09b5-309c-4d58-9bc1-fff27d8f6c72")
+			(uuid "8ce9a9d8-1d78-47b8-9171-d524690926c5")
 		)
 		(instances
-			(project "bms"
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "#PWR?")
-					(unit 1)
-				)
-			)
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "#PWR05")
+					(reference "#PWR?")
 					(unit 1)
 				)
 			)
@@ -4182,7 +4116,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "366589d7-1e76-4a6c-ac84-40d8b09ad5b1")
-		(property "Reference" "R?"
+		(property "Reference" "R9"
 			(at 161.29 135.8899 0)
 			(effects
 				(font
@@ -4228,21 +4162,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "f70138f0-f358-49af-9202-48ae45b38fad")
+			(uuid "c689c8ef-97fa-4697-a79f-160a06be7f68")
 		)
 		(pin "2"
-			(uuid "2e315900-54b4-48a1-949c-eef54b96a33c")
+			(uuid "44031318-8f89-4420-bbe7-6a558e66bf16")
 		)
 		(instances
-			(project ""
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "R?")
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -4258,7 +4186,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "385e7ccb-a652-4ebe-a4eb-8d0c2a7ae97b")
-		(property "Reference" "R?"
+		(property "Reference" "R10"
 			(at 151.13 146.0499 0)
 			(effects
 				(font
@@ -4304,21 +4232,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "9fcf8e24-af1d-4154-ad35-2ae4fc2cc5b1")
+			(uuid "83291162-a0c7-4eb7-8493-41d199929011")
 		)
 		(pin "2"
-			(uuid "05ac042b-dc85-4fa3-9eb3-24fce123d0a6")
+			(uuid "f5facac1-c601-43aa-804a-3cf2894751e0")
 		)
 		(instances
-			(project ""
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "R?")
+					(reference "R10")
 					(unit 1)
 				)
 			)
@@ -4334,7 +4256,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "39f48bde-1100-40db-8c82-44d7ed93a9fe")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR03"
 			(at 99.06 74.93 0)
 			(effects
 				(font
@@ -4380,18 +4302,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "7920f993-d288-4871-967c-70e668d9ad92")
+			(uuid "56bd0f28-1484-4721-9765-b47eada5b8e6")
 		)
 		(instances
-			(project ""
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "#PWR?")
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -4407,7 +4323,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3a8f7641-2f72-4d89-9f1b-10cb02a1964a")
-		(property "Reference" "R?"
+		(property "Reference" "R5"
 			(at 109.22 55.88 90)
 			(effects
 				(font
@@ -4451,21 +4367,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "0fd4fe7d-8f56-4c91-8a73-bd8772e37997")
+			(uuid "6c95016e-cb1b-44e1-9fc9-5d5a34a6c047")
 		)
 		(pin "1"
-			(uuid "6de20af4-b4c9-46db-a182-f886f5f1c0c7")
+			(uuid "16625143-7747-48df-9125-ce64a69da6b9")
 		)
 		(instances
-			(project ""
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "R5")
-					(unit 1)
-				)
-			)
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "R?")
+					(reference "R5")
 					(unit 1)
 				)
 			)
@@ -4481,7 +4391,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "451e4eb4-886b-4866-9a51-3bab5f826ad9")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR05"
 			(at 53.34 118.11 0)
 			(effects
 				(font
@@ -4527,18 +4437,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "29d79c1d-bbbd-4a6d-9d29-07d44309c4e3")
+			(uuid "ef09070f-3992-414e-9d92-f5b7e8ba9b05")
 		)
 		(instances
-			(project "bms"
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "#PWR?")
+					(reference "#PWR05")
 					(unit 1)
 				)
 			)
@@ -4554,7 +4458,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "47b7fc28-83ec-47b8-a2dc-b19d063d87bf")
-		(property "Reference" "R?"
+		(property "Reference" "R7"
 			(at 179.07 104.1399 0)
 			(effects
 				(font
@@ -4600,21 +4504,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "71dd3c77-ed74-49e1-8681-0e17016b5030")
+			(uuid "9e1b044b-d2b7-4a39-88d1-0a4b32f8e4a1")
 		)
 		(pin "1"
-			(uuid "5bab2d75-3749-472a-8bc3-acf3554a82d6")
+			(uuid "538771dc-4e87-40ba-9daa-bac886a19ce0")
 		)
 		(instances
-			(project ""
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "R7")
-					(unit 1)
-				)
-			)
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "R?")
+					(reference "R7")
 					(unit 1)
 				)
 			)
@@ -4630,7 +4528,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4b4b08d7-d9f1-47a2-bcca-541bb2da3d84")
-		(property "Reference" "R?"
+		(property "Reference" "R2"
 			(at 102.87 138.4299 0)
 			(effects
 				(font
@@ -4676,21 +4574,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "14748b18-0c0d-4788-99b9-def3bab3b372")
+			(uuid "f30db5d6-1cdc-4029-bb83-6ca5cd2a8a42")
 		)
 		(pin "1"
-			(uuid "68813f32-c412-44dd-94d7-59a5dec46fcf")
+			(uuid "d7a2f8f0-2692-4f6f-873c-bdccca129298")
 		)
 		(instances
-			(project ""
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "R?")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -4705,7 +4597,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "4d7399ce-cd53-48b2-90cc-7877a98135be")
-		(property "Reference" "R?"
+		(property "Reference" "R12"
 			(at 114.808 145.796 0)
 			(effects
 				(font
@@ -4751,21 +4643,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "a81126cb-3d89-4423-9a01-03e80b175ca7")
+			(uuid "614aa4fa-742c-4744-9cdc-035471be34ec")
 		)
 		(pin "2"
-			(uuid "0f4cfa46-1795-436b-b49a-abbc5a1f3b90")
+			(uuid "05dca5f5-49cc-4006-9baa-6929e13bda39")
 		)
 		(instances
-			(project "bms"
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "R12")
-					(unit 1)
-				)
-			)
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "R?")
+					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -4781,7 +4667,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58017a35-f934-42ed-b9e7-c764b19ce8b1")
-		(property "Reference" "C4"
+		(property "Reference" "C?"
 			(at 67.31 54.6099 0)
 			(effects
 				(font
@@ -4827,21 +4713,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "66753814-072e-4a42-bb49-7201c4314230")
+			(uuid "cbef73d1-1348-4412-b637-aa5898b1827d")
 		)
 		(pin "1"
-			(uuid "4a51f1e6-08de-4f79-961e-5baf883b4155")
+			(uuid "eaac13cd-e413-431b-b932-e379aaef0aff")
 		)
 		(instances
-			(project "bms"
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "C4")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -4856,7 +4736,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "59231d40-1575-40b0-ba78-38aaa6234ce3")
-		(property "Reference" "C?"
+		(property "Reference" "C1"
 			(at 94.234 102.87 90)
 			(effects
 				(font
@@ -4900,21 +4780,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "c1e52e01-5970-44f6-9d11-641450f77441")
+			(uuid "38fbadb8-c35a-4d76-b448-11994ae19070")
 		)
 		(pin "2"
-			(uuid "4331cd7f-dc26-4c04-b063-504e6a4fce46")
+			(uuid "cf3dd0fa-ad31-44e7-ab8e-927c50f642b7")
 		)
 		(instances
-			(project ""
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "C1")
-					(unit 1)
-				)
-			)
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "C?")
+					(reference "C1")
 					(unit 1)
 				)
 			)
@@ -4930,7 +4804,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5ae46a84-519d-4671-88eb-8de05d1a3e31")
-		(property "Reference" "0.1u?"
+		(property "Reference" "0.1u1"
 			(at 67.31 105.4099 0)
 			(effects
 				(font
@@ -4976,21 +4850,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "4b3cf546-d51d-44a5-962f-37e6918fa58c")
+			(uuid "2a97331d-1fb4-486c-8137-4642a20d08ed")
 		)
 		(pin "1"
-			(uuid "9747f66b-9360-429a-8c4e-87588f8e7538")
+			(uuid "2c763943-724d-4662-854c-8afa9325ddc7")
 		)
 		(instances
-			(project "bms"
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "0.1u1")
-					(unit 1)
-				)
-			)
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "0.1u?")
+					(reference "0.1u1")
 					(unit 1)
 				)
 			)
@@ -5006,7 +4874,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "5af73aab-8e97-4d78-8e31-e50537f5d7ed")
-		(property "Reference" "R5"
+		(property "Reference" "R?"
 			(at 54.61 45.72 90)
 			(effects
 				(font
@@ -5050,21 +4918,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "0b44f59d-e1fc-4bf5-a226-e337578b667c")
+			(uuid "4f3df14c-5a43-41ae-b04e-882af75774e6")
 		)
 		(pin "2"
-			(uuid "d501fa8f-05ab-495e-969b-8114c6359f76")
+			(uuid "ce06d281-e469-41f4-8807-d7ac0c8c9cac")
 		)
 		(instances
-			(project "bms"
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "R5")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -5080,7 +4942,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "664a866b-a58b-4ac7-8f97-59ff7dbef843")
-		(property "Reference" "R4"
+		(property "Reference" "R?"
 			(at 54.61 96.52 90)
 			(effects
 				(font
@@ -5124,21 +4986,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "ea1f63b3-0657-4969-a1b0-9218d324edae")
+			(uuid "3f532799-baca-4f67-9b1d-6cd247088bc0")
 		)
 		(pin "2"
-			(uuid "89510d44-174c-491d-9f1d-94124f0390f1")
+			(uuid "32acea6f-1a16-443d-b0f6-c3e15bfe3530")
 		)
 		(instances
-			(project "bms"
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "R4")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -5154,7 +5010,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "6d345375-c47a-4ad4-88c3-2ded7fdf2bb8")
-		(property "Reference" "C2"
+		(property "Reference" "C?"
 			(at 67.31 86.3599 0)
 			(effects
 				(font
@@ -5200,21 +5056,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "48f7ad85-b96a-4300-9f1d-58f73dc106e3")
+			(uuid "2bc27508-4dd9-48d6-91ac-0a33bae4e5f9")
 		)
 		(pin "1"
-			(uuid "0ca6d938-e719-4cdf-bc50-552d59e5ae28")
+			(uuid "2d132424-947a-4b87-8217-af90768ca0ac")
 		)
 		(instances
-			(project "bms"
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "C2")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -5231,7 +5081,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "7919f38b-bbd9-44dd-bdf4-3cf8434b61b5")
-		(property "Reference" "Q?"
+		(property "Reference" "Q2"
 			(at 142.24 154.94 90)
 			(effects
 				(font
@@ -5278,30 +5128,24 @@
 			)
 		)
 		(pin "2"
-			(uuid "2c648681-95a8-4ac7-9652-93b71841f3af")
+			(uuid "094b275b-1603-4018-8dde-b1e9269fd6d7")
 		)
 		(pin "4"
-			(uuid "057ab93a-21cd-4735-a610-17d7c07c300a")
+			(uuid "d7bc4b6b-db0e-4051-bdc9-93f32cec838c")
 		)
 		(pin "3"
-			(uuid "5328bd1c-1524-49ac-af0c-da00df51950e")
+			(uuid "f3d69694-3eaa-4581-bf4b-351517c6f2b3")
 		)
 		(pin "5"
-			(uuid "3a305996-d4a1-4d8c-b09d-b679350e0726")
+			(uuid "2f15993e-17f7-4fc6-b679-e19dd9ac1e47")
 		)
 		(pin "1"
-			(uuid "2244c33d-669c-44eb-a10c-a33c15dc4155")
+			(uuid "04230d72-4d12-4469-a9bc-d259e1c199b4")
 		)
 		(instances
-			(project "bms"
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "Q2")
-					(unit 1)
-				)
-			)
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "Q?")
+					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -5317,7 +5161,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "863775eb-0ef9-4d52-8d87-83dd18ed13f2")
-		(property "Reference" "D?"
+		(property "Reference" "D2"
 			(at 170.18 136.2074 90)
 			(effects
 				(font
@@ -5363,21 +5207,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "23366bd0-0202-46bc-826d-cf295cc83429")
+			(uuid "dc49af09-83fb-4901-9a46-cdb702c12854")
 		)
 		(pin "1"
-			(uuid "1c427794-b848-4a4c-8725-47b799c3c528")
+			(uuid "c00e39a7-ff0c-497d-ab09-874ebcb7a30f")
 		)
 		(instances
-			(project ""
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "D2")
-					(unit 1)
-				)
-			)
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "D?")
+					(reference "D2")
 					(unit 1)
 				)
 			)
@@ -5393,7 +5231,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8d8fe49c-4eca-4a95-b444-47a03430a548")
-		(property "Reference" "C3"
+		(property "Reference" "C?"
 			(at 67.31 64.7699 0)
 			(effects
 				(font
@@ -5439,21 +5277,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "2839c47a-1748-41f2-a5b2-15baf4252f9e")
+			(uuid "b7ff2129-8e63-41cb-8760-4b5ee2d7c4b0")
 		)
 		(pin "1"
-			(uuid "be14e8f7-5b17-40bf-9267-8ab1559f2c7d")
+			(uuid "a8a68c9d-8b50-47d2-a346-685d10ef8faf")
 		)
 		(instances
-			(project "bms"
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "C3")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -5468,7 +5300,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "8ea897f6-7f59-4fa7-b318-c066da78ce88")
-		(property "Reference" "C?"
+		(property "Reference" "C2"
 			(at 89.154 114.554 0)
 			(effects
 				(font
@@ -5514,21 +5346,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "53057f49-3b1e-4477-940b-caf66e86bb2e")
+			(uuid "341cbb3c-9be9-46db-bf74-7d07d29e71b0")
 		)
 		(pin "2"
-			(uuid "3d31869b-0a79-4e77-9b38-668455117146")
+			(uuid "8a2bf041-b0f7-463e-93bd-78a1b9b26bb4")
 		)
 		(instances
-			(project ""
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "C?")
+					(reference "C2")
 					(unit 1)
 				)
 			)
@@ -5544,7 +5370,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9880886f-f188-4da9-b875-2032efef0e5f")
-		(property "Reference" "R?"
+		(property "Reference" "R8"
 			(at 161.29 124.4599 0)
 			(effects
 				(font
@@ -5590,21 +5416,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "69c5f9a4-1c6b-48de-b504-86e0c96c6692")
+			(uuid "c7d99920-0e9d-4d72-94e3-798bd7f85f2a")
 		)
 		(pin "2"
-			(uuid "e9347d2e-2a0c-4fbb-8f9e-c1769ff77ea1")
+			(uuid "631bb02a-13d9-47a3-9e46-fa1a59a42161")
 		)
 		(instances
-			(project ""
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "R8")
-					(unit 1)
-				)
-			)
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "R?")
+					(reference "R8")
 					(unit 1)
 				)
 			)
@@ -5620,7 +5440,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ad6fcd17-b51b-43e3-a2dc-f098718cf649")
-		(property "Reference" "Q?"
+		(property "Reference" "Q1"
 			(at 127 154.94 90)
 			(effects
 				(font
@@ -5667,30 +5487,24 @@
 			)
 		)
 		(pin "2"
-			(uuid "8adfb8a4-5680-4625-8297-7d9bfa4403e2")
+			(uuid "c9ebbd6d-2f86-4906-b66c-e225f1876d20")
 		)
 		(pin "4"
-			(uuid "0dea7d7e-433f-456c-b861-a5998f565552")
+			(uuid "02599659-b1d5-4fc6-affc-ab1fb5c3ab2a")
 		)
 		(pin "3"
-			(uuid "e1289f7d-1d75-4f50-b55d-b7fcb4b2aac3")
+			(uuid "e4d69bc4-72a3-4399-9ebc-c44a62915062")
 		)
 		(pin "5"
-			(uuid "8dc04542-b713-49b8-acc9-af94635550fe")
+			(uuid "ce812e7c-3b74-4e23-8f93-93e690722c3e")
 		)
 		(pin "1"
-			(uuid "b6312a8c-459f-4ad5-b7d6-d9761f4ebf08")
+			(uuid "262930bd-6410-49cc-bd4b-edb9347be305")
 		)
 		(instances
-			(project ""
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "Q?")
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -5705,7 +5519,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "af8b799f-ebbc-40cf-aa03-0e73c9cf650e")
-		(property "Reference" "C6"
+		(property "Reference" "C?"
 			(at 170.18 60.9599 0)
 			(effects
 				(font
@@ -5751,21 +5565,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "51dca484-f538-4387-a4a7-14d59ab87dec")
+			(uuid "65919a9a-2d3a-4b68-a9d5-e18a62c37fc8")
 		)
 		(pin "2"
-			(uuid "4746a4e8-5860-47cf-8c49-0cacc6d2ae6b")
+			(uuid "779583ad-30c9-47b1-b7a3-e50824db8517")
 		)
 		(instances
-			(project "bms"
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-			(project ""
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "C6")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -5781,7 +5589,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c428f430-396f-4af5-9557-1d1ca76bd2b5")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR04"
 			(at 185.42 87.63 0)
 			(effects
 				(font
@@ -5827,18 +5635,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "6e871ce5-44d3-493d-838f-85c5df723790")
+			(uuid "90def378-245b-46c5-bac1-507875abb992")
 		)
 		(instances
-			(project ""
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "#PWR04")
-					(unit 1)
-				)
-			)
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "#PWR?")
+					(reference "#PWR04")
 					(unit 1)
 				)
 			)
@@ -5854,7 +5656,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cec92753-5e26-4877-8a77-2b2d66c29a83")
-		(property "Reference" "R?"
+		(property "Reference" "R3"
 			(at 96.52 144.78 90)
 			(effects
 				(font
@@ -5898,21 +5700,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "bdc2ae58-5347-4fca-95ff-d7e4fd8ce125")
+			(uuid "25b7a554-3003-4cbd-aa59-9b2be05bdfc5")
 		)
 		(pin "1"
-			(uuid "af1d05bf-37ed-439d-a13c-55be5019d2f2")
+			(uuid "b1e4d8ca-9113-45d4-838a-a0f603b88216")
 		)
 		(instances
-			(project ""
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "R?")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5927,7 +5723,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cef594dd-4943-48d4-b378-ff5472db53c7")
-		(property "Reference" "R?"
+		(property "Reference" "R1"
 			(at 87.884 138.43 0)
 			(effects
 				(font
@@ -5973,21 +5769,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "1505013f-2f5d-4df7-8935-f4861cb5f045")
+			(uuid "bdac37b9-ab70-4bc5-a5a5-973998388dc5")
 		)
 		(pin "1"
-			(uuid "f8d7c873-1324-4f45-85ad-876605bf5dd8")
+			(uuid "bff5e969-6bcf-4756-9ef8-96aadd3a4674")
 		)
 		(instances
-			(project ""
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "R1")
-					(unit 1)
-				)
-			)
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "R?")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -6003,7 +5793,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d14c2614-52cf-4269-9234-fe88a0d1db32")
-		(property "Reference" "C1"
+		(property "Reference" "C?"
 			(at 67.31 74.9299 0)
 			(effects
 				(font
@@ -6049,21 +5839,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "611bad87-055b-49a5-af20-6342e71da3e6")
+			(uuid "049ac546-5b16-4b0b-8326-6dc914a950d6")
 		)
 		(pin "1"
-			(uuid "958ea83f-9b86-407a-97b5-35a50ac4c71f")
+			(uuid "ec40066d-a194-444e-9a5f-ddcb127abc51")
 		)
 		(instances
-			(project "bms"
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-			(project ""
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "C1")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -6079,7 +5863,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d3fe0922-084c-43de-8050-9bfc23f5fdd4")
-		(property "Reference" "R?"
+		(property "Reference" "R6"
 			(at 171.45 78.74 90)
 			(effects
 				(font
@@ -6123,21 +5907,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "fa06f9b1-be8f-40b8-9e9b-5700e25e66a1")
+			(uuid "0da27228-ab65-4d18-8310-b70becec6144")
 		)
 		(pin "1"
-			(uuid "24ffe66b-c09a-4fe1-a181-f28f3911efba")
+			(uuid "17f83545-ab10-4730-9c96-05f596059fbe")
 		)
 		(instances
-			(project ""
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "R?")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -6153,7 +5931,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc5c34bb-0553-4a21-ad99-b9a659dd4721")
-		(property "Reference" "#PWR?"
+		(property "Reference" "#PWR01"
 			(at 102.87 121.92 0)
 			(effects
 				(font
@@ -6199,18 +5977,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "15b0d3d0-8d02-4e8b-b1d3-a0772194491f")
+			(uuid "646b8f47-5b73-4024-86e9-3665ff25264d")
 		)
 		(instances
-			(project ""
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "#PWR01")
-					(unit 1)
-				)
-			)
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "#PWR?")
+					(reference "#PWR01")
 					(unit 1)
 				)
 			)
@@ -6226,7 +5998,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e39d8bb5-0b31-4003-9d54-19325b110acf")
-		(property "Reference" "0.1u"
+		(property "Reference" "0.1u?"
 			(at 67.31 96.5199 0)
 			(effects
 				(font
@@ -6272,21 +6044,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "29575d7b-6b2c-4b2f-9410-944add96e0fd")
+			(uuid "493774ee-cd93-4b1e-ab2c-f43c49f70b2b")
 		)
 		(pin "1"
-			(uuid "fa3e974e-e624-4b63-8681-12902c694ff6")
+			(uuid "c8ebba0c-30db-45b7-b31d-54e1bd966bba")
 		)
 		(instances
-			(project "bms"
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "0.1u?")
-					(unit 1)
-				)
-			)
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "0.1u")
+					(reference "0.1u?")
 					(unit 1)
 				)
 			)
@@ -6301,7 +6067,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "e54a87d7-1b2c-41a2-aaa0-6661d0eae521")
-		(property "Reference" "C5"
+		(property "Reference" "C?"
 			(at 161.29 60.452 90)
 			(effects
 				(font
@@ -6345,21 +6111,15 @@
 			)
 		)
 		(pin "2"
-			(uuid "f8576f43-e3eb-4584-8ab9-9a88858cce8c")
+			(uuid "5d881363-3bb7-44bc-b552-259d119e64e4")
 		)
 		(pin "1"
-			(uuid "0413fb4f-431f-45c6-b60c-566fd419b5a2")
+			(uuid "bfefdae4-9b2a-4aba-9b43-3b4456b8cf97")
 		)
 		(instances
-			(project "bms"
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "C?")
-					(unit 1)
-				)
-			)
-			(project ""
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "C5")
+					(reference "C?")
 					(unit 1)
 				)
 			)
@@ -6375,7 +6135,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e94d8d83-3ffb-4aff-b70c-8b38f516b3a5")
-		(property "Reference" "R3"
+		(property "Reference" "R?"
 			(at 54.61 87.63 90)
 			(effects
 				(font
@@ -6419,21 +6179,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "3aa0be84-73c0-4c6e-9038-26b4ea6b3d2a")
+			(uuid "7f8e2f08-da17-43ec-a65f-5eaa3018367d")
 		)
 		(pin "2"
-			(uuid "6c2f22d9-5ec9-481b-b429-aaf9c93258a6")
+			(uuid "58e7f441-1414-4227-9a03-cce993f28f29")
 		)
 		(instances
-			(project "bms"
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "R3")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -6449,7 +6203,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "eedf9b45-634a-423c-ae07-5d8cc21d9cfb")
-		(property "Reference" "R1"
+		(property "Reference" "R?"
 			(at 54.61 66.04 90)
 			(effects
 				(font
@@ -6493,21 +6247,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "4c527bd6-6c1a-4afe-9e0b-adf99c80c8f1")
+			(uuid "ae37e1a6-15ed-4bc3-a112-1f3c2a9bd17b")
 		)
 		(pin "2"
-			(uuid "c4fc822e-4f6c-402e-b318-fff712fe890e")
+			(uuid "3fe48352-70c7-4cf4-8756-3e1b10eb1c18")
 		)
 		(instances
-			(project "bms"
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project ""
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "R1")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -6522,7 +6270,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "f1b1b2cc-7dd7-40fc-891b-c5ee2af5d11b")
-		(property "Reference" "C?"
+		(property "Reference" "C3"
 			(at 89.154 126.492 0)
 			(effects
 				(font
@@ -6568,21 +6316,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "8902ecd0-03fe-46d8-a2a9-01f2e0a541c3")
+			(uuid "a3b8c090-4e0f-4457-b56a-0b2eea52a6ec")
 		)
 		(pin "2"
-			(uuid "c0d99887-2efb-4f59-a19a-6b38b1f3031d")
+			(uuid "58c7a5d0-ce32-4cb5-8b8e-514009a47210")
 		)
 		(instances
-			(project ""
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "C?")
+					(reference "C3")
 					(unit 1)
 				)
 			)
@@ -6598,7 +6340,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fa8b13ae-3beb-4d4f-b872-c86667e99d59")
-		(property "Reference" "R6"
+		(property "Reference" "R?"
 			(at 176.53 50.8 90)
 			(effects
 				(font
@@ -6642,21 +6384,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "8fbc79fa-b13e-4894-ad11-52d926a57f34")
+			(uuid "c87b8928-d170-41e9-9081-e49f8f89647f")
 		)
 		(pin "2"
-			(uuid "3ff410d0-b025-4916-91bd-95aee07ec74a")
+			(uuid "269fe52d-33cb-4c1d-a2eb-12a6ad58a5a5")
 		)
 		(instances
-			(project "bms"
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "R?")
-					(unit 1)
-				)
-			)
-			(project "mitochondria"
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "R6")
+					(reference "R?")
 					(unit 1)
 				)
 			)
@@ -6672,7 +6408,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fad9b926-56b9-447c-b28e-b009980c84a5")
-		(property "Reference" "U1"
+		(property "Reference" "U?"
 			(at 135.89 54.61 0)
 			(effects
 				(font
@@ -6817,87 +6553,81 @@
 			)
 		)
 		(pin "23"
-			(uuid "4bf6f8c9-2328-4ebe-b603-b5ad1f647f0b")
+			(uuid "6bc26be8-4cee-44d6-98a1-140ec4a16fa4")
 		)
 		(pin "11"
-			(uuid "2b6ac477-6bde-4144-bee7-00c48af103c4")
+			(uuid "fc346f11-3e3e-4638-9d51-e05131b152d2")
 		)
 		(pin "12"
-			(uuid "0abbe642-c346-4a36-828d-39b8b4ff41b7")
+			(uuid "8ba4bb41-fb01-41d2-b6c9-dec90a9e7e6b")
 		)
 		(pin "21"
-			(uuid "2483f403-5b6a-497b-ac2f-23ecae333985")
+			(uuid "67788e1a-8ebd-468d-9e29-2c84bf8f109e")
 		)
 		(pin "22"
-			(uuid "86c1fd32-1b75-41f7-9fff-f05ad1e4e34f")
+			(uuid "ed2affe0-3c70-417d-84c1-f10c343eaa08")
 		)
 		(pin "20"
-			(uuid "fa9ffbc4-d3c2-4583-9182-8bd2510656b6")
+			(uuid "cc13f2c1-a29c-450c-ae38-b88f70e03628")
 		)
 		(pin "5"
-			(uuid "9ac84ec1-7106-4a76-b51c-08d99351a0fe")
+			(uuid "9660ce9e-e4a4-4897-bcbe-bdf38e84f02f")
 		)
 		(pin "16"
-			(uuid "45c535e9-1009-4f98-b913-3c44c6b4b49a")
+			(uuid "884267fc-54d4-4d1f-abce-0497386a5e14")
 		)
 		(pin "9"
-			(uuid "44df3fbe-e64f-46ed-af19-2b424cc7c13a")
+			(uuid "1f1fcf5e-fae2-4c67-95ea-123ce2f0a450")
 		)
 		(pin "19"
-			(uuid "6857654e-7901-4211-8e21-989a1bec964b")
+			(uuid "ecf97b57-fd31-4463-bf26-2baa3402de61")
 		)
 		(pin "6"
-			(uuid "c95de772-6c3d-4954-ae52-37c834221ca0")
+			(uuid "a0083959-634a-48a2-872a-21d2c7d85396")
 		)
 		(pin "8"
-			(uuid "c4770b53-b557-4161-935b-c331becd3e4b")
+			(uuid "cfffc402-a9b7-4b13-9a6f-c08c380d1c36")
 		)
 		(pin "10"
-			(uuid "b76ea731-4397-4927-976a-d7a2c5004d06")
+			(uuid "2883f5bb-7445-4752-ac00-35c3d3e277ab")
 		)
 		(pin "13"
-			(uuid "205d2ca4-efd6-4c71-b4f4-b3784e544807")
+			(uuid "6e7340d0-e32f-4333-8c04-922be8d89c47")
 		)
 		(pin "14"
-			(uuid "37bc6e36-d095-4956-933a-ba65e2b04c6a")
+			(uuid "f5417ce1-0c67-44f1-a69f-d373427cf5af")
 		)
 		(pin "1"
-			(uuid "cc8b20bc-ad66-42b1-b352-f0088b5b64e3")
+			(uuid "3eaea233-9352-4340-84f2-66f519bbac1a")
 		)
 		(pin "3"
-			(uuid "5800da3e-15fb-4fc6-a1dd-390db77119db")
+			(uuid "781abb83-3f80-45ad-8bcb-6c7fa472a2a3")
 		)
 		(pin "15"
-			(uuid "c30a951f-ca72-4580-937e-ab5ef1f3b4d7")
+			(uuid "48ff3839-a5b6-4d4b-8a87-8f81ad3d7ae9")
 		)
 		(pin "17"
-			(uuid "a0754198-e037-4bbe-acca-6f189cd7abc3")
+			(uuid "17c9d3e6-bab9-4076-8596-6606c78c4a13")
 		)
 		(pin "24"
-			(uuid "61df39ad-f67a-432d-b517-6feb476f379c")
+			(uuid "6a579874-e60c-4ec5-a29d-07d4a3f5f1aa")
 		)
 		(pin "4"
-			(uuid "ee8ea56d-f993-4a00-9793-7efb09a606a6")
+			(uuid "8ddf3675-ee8f-4f87-bba0-22bd087f4c87")
 		)
 		(pin "7"
-			(uuid "2afc5b26-dc51-418d-bac0-eee838e7129e")
+			(uuid "94d031fe-4432-4473-b0b1-46e029110510")
 		)
 		(pin "18"
-			(uuid "91a37b4a-c110-4ac0-9aae-a111baedcf7a")
+			(uuid "89a5ae7c-83a1-4200-b0df-23efb6478125")
 		)
 		(pin "2"
-			(uuid "339d341c-fe36-4374-b18a-11c1ce3f9040")
+			(uuid "b761e86b-189f-447d-b66e-7e0164cf0f9f")
 		)
 		(instances
-			(project "bms"
-				(path "/24afb438-89d0-4bf6-a7c4-03dd3ec65593"
-					(reference "U?")
-					(unit 1)
-				)
-			)
-			(project ""
+			(project "medulla"
 				(path "/d5881702-98ec-4aea-8d9c-3c163ba85aa3/5366a2be-3d58-427d-8306-8542a9a2b2c3"
-					(reference "U1")
+					(reference "U?")
 					(unit 1)
 				)
 			)

@@ -1,4 +1,4 @@
-27233207460359417
+27234981082907936
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -107925,6 +107925,13 @@ IC_BNO085
 0
 28
 28
+mc_Footprints
+QFN40P700X700X90-57N
+
+
+0
+57
+57
 mc_Footprints
 SAMTEC_ESQ-120-XX-X-D-XX
 
