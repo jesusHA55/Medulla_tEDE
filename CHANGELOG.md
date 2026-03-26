@@ -16,6 +16,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 - TBD: Physical positioning of the 40-pin elevated female header to clear the Pi 5 Active Cooler.
 
 ---
+## [0.2.0-alpha] - 2026-03-17
+### Added RP2040, LM2936-3.3V Regulator, removed ADS1115, PCA9685
 ## [0.1.3-alpha] - 2026-03-17
 ### H-Bridge Completion & I2C Sensor Payload
 
